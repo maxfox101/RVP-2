@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<title>Оставить заявку — БазМет</title>
+</head>
+<body>
+<header>
+<nav>
+<ul>
+<li><a href="index.html">Главная</a></li>
+<li><a href="catalog.html" aria-current="page">Каталог</a></li>
+<li><a href="services.html">Услуги</a></li>
+<li><a href="about.html">О компании</a></li>
+<li><a href="contacts.html">Контакты</a></li>
+</ul>
+</nav>
+</header>
+
+<main>
+<h1>Оставить контакты</h1>
+
+<form action="order.html" method="post">
+<p>
+<label for="name">Ваше имя *</label><br>
+<input type="text" id="name" name="name" placeholder="Введите имя" required>
+</p>
+
+<p>
+<label for="phone">Номер телефона *</label><br>
+<input type="tel" id="phone" name="phone" placeholder="+7 (___) ___ - __ - __" required>
+</p>
+
+<p>
+<label for="email">E-mail *</label><br>
+<input type="email" id="email" name="email" placeholder="example@mail.ru" required>
+</p>
+
+<p>
+<label for="description">Описание / Спецификация заявки</label><br>
+<textarea id="description" name="description" rows="5"></textarea>
+</p>
+
+<button type="submit">Отправить заявку</button>
+</form>
+</main>
+
+<footer>
+<p>&copy; 2026 ООО «БазМет»</p>
+</footer>
+</body>
+</html>
